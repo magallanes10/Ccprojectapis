@@ -37,6 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
             url: "api/edit"
         },
         {
+            name: "SoundCloud",
+            description: "Listening Music from SoundCloud API",
+            method: "GET",
+            url: "api/soundcloud?search="
+        },
+        {
             name: "Emoji Reaction Message",
             description: "React Message based on the Context of Chats",
             method: "GET",
